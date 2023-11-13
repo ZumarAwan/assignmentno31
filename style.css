@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.bgcl{
+    background-color: #333333;
+    color: rgb(221, 200, 174);
+    font-size: 0.9vw;
+}
+.form-control {
+    color: #333333;
+  }
+  button span .navbar-toggler-icon{
+    color: white;
+  }
+  .form-control::placeholder {
+    color: white;
+  }
+  .spcolor{
+    color: orange;
+  }
+  .list-group a{
+    border-bottom: 1px solid gray;
+  }
+  .box{
+    height: 130px;
+    width: 130px;
+    border: 2px solid silver;
+  }
+  .bod{
+    border-top: 1px solid gray;
+  }
