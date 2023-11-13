@@ -1,33 +1,38 @@
 *{
-    padding: 0;
+  
     margin: 0;
-    box-sizing: border-box;
+    padding: 0;
 }
 .bgcl{
     background-color: #333333;
-    color: rgb(221, 200, 174);
-    font-size: 0.9vw;
+    color: aliceblue;
 }
-.form-control {
-    color: #333333;
-  }
-  button span .navbar-toggler-icon{
-    color: white;
-  }
-  .form-control::placeholder {
-    color: white;
-  }
-  .spcolor{
+.size{
+    width: 995px;
+    /* min-width: 500px; */
+    min-height: 150px;
+    height: 360px;
+}
+.size1{
+    /* width: 312px; */ 
+     height: 180px;
+    min-height: 70px;
+    min-width: 250px;
+}
+.spcolor{
     color: orange;
-  }
-  .list-group a{
+}
+.size2{
+    width: 469px;
+    height: 250px;
+}
+li{
+    list-style: none;
     border-bottom: 1px solid gray;
-  }
-  .box{
-    height: 130px;
-    width: 130px;
-    border: 2px solid silver;
-  }
-  .bod{
-    border-top: 1px solid gray;
-  }
+}
+.dark{
+    background-color: black;
+}
+.cardsize{
+   width: 313px;
+}
